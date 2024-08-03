@@ -1,9 +1,14 @@
+import { Title, Container } from "./styles"
+
 function App() {
-  const myText = 'My Life Bia. '
+
+
   return (
-    <div>
-      <h1>{myText}</h1>
-    </div>
+    <Container>
+      <Title>Ok React Native</Title>
+      <Title>Ok React Native</Title>
+      <Title>Ok React Native</Title>
+    </Container>
   )
 }
 
